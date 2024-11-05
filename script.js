@@ -1,9 +1,9 @@
 //complete this code
 class Animal {
-	constructuor(species){
+	constructor(species){
 		this.species = species;
 	}
-	get species (){
+	get(){
 		return this.species;
 	}
 	makeSound(){
@@ -12,14 +12,14 @@ class Animal {
 }
 
 class Dog extends Animal {
-	purr(){
-		console.log("purr")
+	bark(){
+		console.log("woof")
 	}
 }
 
 class Cat extends Animal {
-	bark(){
-		console.log("woof")
+	purr(){
+		console.log("purr")
 	}
 }
 
